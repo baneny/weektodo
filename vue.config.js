@@ -1,10 +1,7 @@
-const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
-
 module.exports = {
   pluginOptions: {
     electronBuilder: {
       nodeIntegration: true,
-      customFileProtocol: './',
       builderOptions: {
         appId: "weektodo-app.netlify.app",
         productName: "WeekToDo",
@@ -24,13 +21,5 @@ module.exports = {
         },
       },
     },
-  },
-  configureWebpack: {
-    plugins: [new NodePolyfillPlugin()],
-    resolve: {
-      fallback: {
-        fs: false,
-      },
-    },
-  },
+  }
 };
