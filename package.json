@@ -4,6 +4,14 @@
   "private": true,
   "description": "Free and Open Source Minimalist Weekly Planner focused on privacy.",
   "author": "Manuel Ernesto Garcia <contact@weektodo.me> (https://weektodo.me/)",
+  "homepage": "https://weektodo.me",
+  "keywords": [
+    "ToDo",
+    "Weekly Planner",
+    "to-do",
+    "Productivity",
+    "Minimalist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -33,26 +41,30 @@
     "linkify-string": "^3.0.4",
     "linkifyjs": "^3.0.5",
     "lodash.uniqueid": "^4.0.1",
+    "markdown-it": "^13.0.1",
     "moment": "^2.29.1",
-    "rrule": "^2.6.9",
-    "vue": "^3.2.26",
-    "vue-i18n": "^9.1.9",
-    "vue3-datepicker": "^0.2.5",
-    "vue3-markdown-it": "^1.0.9",
-    "vuex": "^4.0.2"
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "node-sass": "^8.0.0",
+    "rrule": "^2.7.2",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue3-datepicker": "^0.3.4",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.15",
-    "@vue/cli-plugin-eslint": "^4.5.15",
-    "@vue/cli-service": "^4.5.15",
-    "@vue/compiler-sfc": "^3.2.26",
-    "babel-eslint": "^10.1.0",
-    "electron": "^19.0.4",
-    "electron-devtools-installer": "^3.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.20.0",
-    "node-sass": "^6.0.1",
-    "sass-loader": "^10",
-    "vue-cli-plugin-electron-builder": "~2.0.0-rc.6"
+    "@babel/core": "^7.22.1",
+    "@babel/eslint-parser": "^7.21.8",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.3.4",
+    "electron": "^25.0.1",
+    "electron-devtools-installer": "^3.2.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.1",
+    "vue-cli-plugin-electron-builder": "^2.0.0",
+    "webpack": "^5.85.0"
   }
-
+}
