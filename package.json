@@ -1,6 +1,6 @@
 {
   "name": "WeekToDo",
-  "version": "2.1.2",
+  "version": "2.1.6",
   "private": true,
   "description": "Free and Open Source Minimalist Weekly Planner focused on privacy.",
   "author": "Manuel Ernesto Garcia <contact@weektodo.me> (https://weektodo.me/)",
@@ -15,7 +15,7 @@
     "release": "electron-builder",
     "test": "echo success"
   },
-  "main": "index.js",
+  "main": "background.js",
   "dependencies": {
     "@honeybadger-io/js": "^5.0.0",
     "@honeybadger-io/vue": "^6.0.0",
